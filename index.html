@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Dine on Campus UI Critique</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<body>
+<h1 class = "center">Dine on Campus UI Critique</h1>
+<h3 class = "center">Jacob Baskiewicz, Matthew Chico, Juan Herrera, Andres Quinones</h3>
+<hr>
+<nav>
+	<p class=center>
+	<a href=index.html class = "selected">Home</a> | 
+	<a href=audit.pdf target="_blank">Usability Audit Form</a>
+</nav>
+<hr>
+<h2>Application Details</h2>
+<p>Our critique covers the IIT “DineOnCampus” mobile app. There are several issues with the user interface that we investigated. These include:</p>
+<ul>
+	<li>Complex and unintuitive navigation</li>
+	<li>Inaccurate information relating to time</li>
+	<li>Small and hard to read fonts</li>
+	<li>Lack of allergen and nutrition information</li>
+	<li>An overload of information instead of organized drop down menus</li>
+</ul>
+<p>These issues affect IIT students, faculty, and any person interested in dining on campus or using the app for convenience. For people with vision impairments the small fonts and navigation provide a challenge for them. Similarly, for people with allergies, there are no disclaimers or warnings about the ingredients in the food. Occasionally, the menu will not update to the current day and display the previous day's menu. </p>
+<h2>Research Methods</h2>
+<p>For our research we conducted two usability audits where we would assign several tasks to a new user to the application, and then survey the user on their experience. We also conducted a large scale survey for more feedback from users of more or less experience with the app.</p>
+<p>We asked the following questions in our survey</p>
+<ol>
+	<li>Have you ever used the "DineOnCampus” mobile app?</li>
+	<li>If you use the DineOnCampus mobile app, how often?</li>
+	<li>Do you find the app Easy to navigate?</li>
+	<li>If you've stopped using the DineOnCampus App, what were the reasons?</li>
+	<li>What changes to the DineOnCampus would encourage you to use it on a daily basis?</li>
+	<li>If you have allergies or dietary restrictions, do you feel like the app does enough to inform you?</li>
+	<li>Based on the menu on the DineOnCampus app, how accurate is it to what is actually served? (1-5)</li>
+</ol>
+<h2>Results</h2>
+<h3>Usability Audit</h3>
+<p>Our usability audits show the common result that the app navigation seems to be the first major road block for a new user. The navigation was reported to be unintuitive and confusing. One user noted that they weren't sure which buttons were interactable or not since there was no indication. A second common report was that the information on the app was clearly inaccurate. Both audits were performed in the late afternoon but the menus displayed on the application were the breakfast menus. One user, despite being able to find some nutrition info was confused by other tags a dish may have such as "V", "VG", "PR", and a symbol that looked like an earth. There was no index for these symbols to be found.</p>
+<h3>Survey</h3>
+<p>The results from our survey showed a very similar image. Out of 14 users who responded yes to "Have you ever used the DineOnCampus mobile app", a third of them had the shared experience that they used the app one time and never again. This shows how the users didn't have a good enough time using the app, or it lacked the information they needed for them to use it again. Another quarter of those respondands only use the app rarely. 3 quarters of our respondands find the app difficulty to navigate, and most of the responands found the information to be incorrect when they used it themselves. Surprisingly, 100% of our responands said "No" to "If you have allergies or dietary restrictions, do you feel like the app does enough to inform you?". This is clearly a major issue with the application since health or dietary restrictions is something that should clearly be communicated to a consumer, and not being able to find that information easily is a major problem.</p>
+<h2>Application Changes</h2>
+<p>Below are 3 of the most major issues we discovered when using the application, with solutions attached.</p>
+<h3>User Interface</h3>
+<p><span class="bold">Issue:</span> Complex and Unintuitive Navigation and Small/Inconsistant Font Size</p>
+<p><span class="bold">Solution:</span> Simplify the navigation structure by grouping related features together and reducing the number of clicks required to access important information. Implement a hamburger menu or tab-based navigation to organize content effectively. Additionally, increase the font size throughout the app to improve readability, especially for users with visual impairments. Also using consistent fonts throughout the application will make it easier for users to read, and more comfortable.</p>
+<div class="imageinsert">
+	<img src="hamburger.jpg" class="mdimage" alt="Hamburger Menu Example" />
+	<p class="caption">Hamburger menu drop down example</p>
+</div>
+<h3>Information Accuracy</h3>
+<p><span class="bold">Issue:</span> Inaccurate Time Information and Menu Update Issues</p>
+<p><span class="bold">Details:</span> Users rely on accurate information regarding meal times (breakfast, lunch, dinner) and current menu offerings. However there are instances where the app shows outdated schedules and fails to show current meals, Also there are no times showing the start of breakfast, lunch, and dinner</p>
+<p><span class="bold">Solution:</span> Can include a manual override option for administrators to manually update meal schedules and menus in case of technical issues or last-minute changes. Users can maybe also offer suggestions on the menu if something is still inaccurate. Also add a tab showing the start and end of breakfast, lunch, dinner.</p>
+<div class="imageinsert">
+	<img src="update.jpg" class="smimage" alt="DineOnCampus App with 'Update' button suggested feature" />
+	<p class="caption">DineOnCampus App with 'Update' button suggested feature</p>
+</div>
+<h3>Health and Nutrition Info</h3>
+<p><span class="bold">Issue:</span> not specific enough Allergen and Nutrition Information</p>
+<p><span class="bold">Details:</span> Users face challenges due to the absence of essential health and nutrition details within the app. Without access to allergen and nutrition information, individuals with dietary restrictions or health concerns are unable to make informed decisions about their food choices. The information about nutrients can be found by pressing the meal, but it's not obvious that it's a button you can press, so it's hidden.</p>
+<p><span class="bold">Solution:</span> originally when clicking on the meal, it shows information such as calories, protein, sugars, etc… Here a disclaimer should be added for allergens ,there should also be a visible button that reads see more or learn more, to read about nutrition facts, and disclaimers. Also Accompany each meal listing there should be a clear and appetizing image. Visual representation of the meal can help users make informed choices, as you always see students, walking up to each station</p>
+<p><a href="#top">To Top</a></p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+hr {
+	width: 80%;
+}
+body {
+	font-family: Verdana, Georgia, serif;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+  background-color: gray;
+}
+a:visited {
+	color:blue;
+}
+.mdimage{
+	width: 20%;
+	height: auto;
+}
+.smimage{
+	width: 10%;
+	height: auto;
+}
+.selected {
+	color: purple !important;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.center {
+	text-align:center;
+}
+.bold {
+	font-weight: bold;
+}
+.floatleft{
+	float:left;
+}
+div.imageinsert {
+    vertical-align: top;
+    text-align: center;
+}
+.caption {
+	font-style: italic;
+	font-size: 13px;
+    display: block;
+}
